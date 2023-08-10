@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <script defer src="test.js"></script>
+    <title>Tienda de Mascotas</title>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo de la Tienda de Mascotas">
+            </div>
+            <div class="contact-info">
+                <p>Teléfono: +123 456 789</p>
+                <p>Correo: info@tiendamascotas.com</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenido a la Tienda de Mascotas</h1>
+        <p>Explora nuestra amplia selección de productos y servicios para tus mascotas.</p>
+        <a href="#productos" class="cta-button">Ver Productos</a>
+    </section>
+
+    <section id="productos" class="products">
+        <h2>Nuestros Productos</h2>
+        <div class="product">
+            <img src="producto1.jpg" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <div class="product">
+            <img src="producto2.jpg" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <!-- Más productos aquí -->
+    </section>
+
+    <section class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service">
+            <img src="servicio1.jpg" alt="Servicio 1">
+            <h3>Servicio de Peluquería</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+        </div>
+        <div class="service">
+            <img src="servicio2.jpg" alt="Servicio 2">
+            <h3>Adiestramiento Profesional</h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+        </div>
+        <!-- Más servicios aquí -->
+    </section>
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Mascotas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
